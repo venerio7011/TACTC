@@ -1,0 +1,40 @@
+# Data and results (large; not part of the repository)
+input/**
+!input/README.md
+output/
+resources/
+.tmp/
+*.h5ad
+*.h5
+*.tif
+*.tiff
+*.tar
+*.tar.gz
+*.tgz
+*.feather
+*.loom
+*.zarr/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets (e.g. a DeepCell access token used for segmentation)
+.env
+*.token
+*token*.txt
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

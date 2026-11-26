@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use TACTC, please cite it as below."
+title: "TACTC: Tissue Adjacency Cross-Check of Transcriptomic Clusters"
+abstract: "An independent tissue check of spot-level expression clusters and PAGA graphs: expression clusters are built from RNA alone, a nuclear-adjacency graph from the image alone, and the two are crossed to mark contiguous (core) and fragmented (scattered) spots and tissue-annotated PAGA edges."
+authors:
+  - family-names: Seo
+    given-names: Jibum
+    affiliation: "Graduate Medical Sciences, Boston University Chobanian & Avedisian School of Medicine"
+version: 0.1.0
+date-released: 2026-11-26
+license: MIT
+keywords:
+  - spatial transcriptomics
+  - Visium
+  - PAGA
+  - tissue contiguity
+  - glioblastoma
